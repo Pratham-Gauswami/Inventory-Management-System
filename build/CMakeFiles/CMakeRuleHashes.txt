@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+4a7506119ab56fe259ef2ace6e279405 AutomatedInventoryMSystem_autogen/timestamp
+94bb593e51c7d5c2b184b166f979f226 CMakeFiles/AutomatedInventoryMSystem_autogen

@@ -1,0 +1,5 @@
+/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles/AutomatedInventoryMSystem.dir
+/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles/edit_cache.dir
+/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles/rebuild_cache.dir
+/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles/AutomatedInventoryMSystem_autogen_timestamp_deps.dir
+/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles/AutomatedInventoryMSystem_autogen.dir
