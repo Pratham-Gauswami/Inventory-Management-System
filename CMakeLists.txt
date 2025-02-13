@@ -11,6 +11,7 @@ find_package(Qt6 COMPONENTS Core Widgets REQUIRED)
 add_executable(${PROJECT_NAME} 
     main.cpp 
     inventory.cpp
+    addProduct.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE

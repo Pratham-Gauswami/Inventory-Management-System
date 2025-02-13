@@ -179,6 +179,30 @@ AutomatedInventoryMSystem_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/AutomatedInventoryMSystem_autogen/mocs_compilation.cpp.s
 .PHONY : AutomatedInventoryMSystem_autogen/mocs_compilation.cpp.s
 
+addProduct.o: addProduct.cpp.o
+.PHONY : addProduct.o
+
+# target to build an object file
+addProduct.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.o
+.PHONY : addProduct.cpp.o
+
+addProduct.i: addProduct.cpp.i
+.PHONY : addProduct.i
+
+# target to preprocess a source file
+addProduct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.i
+.PHONY : addProduct.cpp.i
+
+addProduct.s: addProduct.cpp.s
+.PHONY : addProduct.s
+
+# target to generate assembly for a file
+addProduct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.s
+.PHONY : addProduct.cpp.s
+
 inventory.o: inventory.cpp.o
 .PHONY : inventory.o
 
@@ -241,6 +265,9 @@ help:
 	@echo "... AutomatedInventoryMSystem_autogen/mocs_compilation.o"
 	@echo "... AutomatedInventoryMSystem_autogen/mocs_compilation.i"
 	@echo "... AutomatedInventoryMSystem_autogen/mocs_compilation.s"
+	@echo "... addProduct.o"
+	@echo "... addProduct.i"
+	@echo "... addProduct.s"
 	@echo "... inventory.o"
 	@echo "... inventory.i"
 	@echo "... inventory.s"

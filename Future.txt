@@ -1,0 +1,8 @@
+Why Separate Files?
+
+Modularity: Keeping the dialog in a separate file makes your code more organized
+and easier to maintain.
+Reusability: If you need to use the dialog in other
+parts of your application, you can simply include the header file.
+Readability: Separating concerns (e.g., UI dialogs vs. business logic) makes your code easier
+to understand.

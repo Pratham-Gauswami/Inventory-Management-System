@@ -12,6 +12,7 @@
 #include <QLineEdit>
 #include <QHeaderView>
 #include <QMessageBox>
+#include "addProduct.h"
 
 
 int main(int argc, char *argv[]) {
@@ -69,7 +70,18 @@ int main(int argc, char *argv[]) {
 
     // Connect button signals
     QObject::connect(addButton, &QPushButton::clicked, [&]() {
-        QMessageBox::information(&window, "Add Product", "Add Product functionality will be implemented here");
+        AddProductDialog dialog(&window);
+        if(dialog.exec() == QDialog::Accepted) {
+            QString name = dialog.getName();
+            double price = dialog.getPrice();
+            int quantity = dialog.getQuantity();
+            QString category = dialog.getCategory();
+        }
+        // Add the product to the inventory
+        // inventoryManager.addProduct(name, price, quantity, category);
+
+        // Refresh the table (you'll need to implement this)
+        // refreshInventoryTable(inventoryTable, inventoryManager);
     });
 
     QObject::connect(editButton, &QPushButton::clicked, [&]() {

@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "AutomatedInventoryMSystem_autogen/timestamp"
   "CMakeFiles/AutomatedInventoryMSystem.dir/AutomatedInventoryMSystem_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/AutomatedInventoryMSystem.dir/AutomatedInventoryMSystem_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.o"
+  "CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.o.d"
   "CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.o"
   "CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.o.d"
   "CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.o"
