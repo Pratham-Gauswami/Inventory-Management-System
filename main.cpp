@@ -78,7 +78,7 @@ int main(int argc, char *argv[]) {
             QString category = dialog.getCategory();
         }
         // Add the product to the inventory
-        // inventoryManager.addProduct(name, price, quantity, category);
+        DatabaseManager.addProduct(name, price, quantity, category);
 
         // Refresh the table (you'll need to implement this)
         // refreshInventoryTable(inventoryTable, inventoryManager);
