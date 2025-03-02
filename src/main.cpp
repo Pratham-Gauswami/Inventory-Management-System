@@ -12,10 +12,103 @@
 #include <QLineEdit>
 #include <QHeaderView>
 #include <QMessageBox>
-#include "addProduct.h"
+#include <sqlite3.h> //#include sqllite3 header file
+#include <QDebug> //For debugging output
+#include "../include/addProduct.h"
+#include "../include/DatabaseManager.h"
+
+
+//Function to initlaize the database and create the products table
+bool initializeDatabase(sqlite3 *&db) {
+    int rc = sqlite3_open("inventory.db", &db); //Open or create the database file
+    if (rc) {
+        qDebug() << "Can't open Database:" << sqlite3_errmsg(db);
+        return false;
+    }
+
+    //SQL statemnts/queries to create the products table
+    const char *sql = "CREATE TABLE IF NOT EXISTS products ("
+                      "id INTEGER PRIMARY KEY AUTOINCREMENT, "
+                      "name TEXT NOT NULL, "
+                      "quantity INTEGER NOT NULL, "
+                      "price REAL NOT NULL, "
+                      "category TEXT NOT NULL, "
+                      "last_updated TEXT NOT NULL);";
+
+    char *zErrMsg = 0;
+    rc = sqlite3_exec(db, sql, 0, 0, &zErrMsg); //Execute the sql statement
+    if(rc != SQLITE_OK) {
+        qDebug() << "SQL error:" << zErrMsg;
+        sqlite3_free(zErrMsg);
+        return false;
+    }
+
+    qDebug() << "Database initialized successfully.";
+    return true;
+
+}
+
+void refreshInventoryTable(sqlite3 *db, QTableWidget *inventoryTable) {
+
+    //Clear the table
+    inventoryTable->setRowCount(0);
+
+    //SQL statement to fetch all the products
+    const char *sql = "SELECT * FROM products;";
+    sqlite3_stmt *stmt;
+
+    //Prepare the SQL statement
+    int rc = sqlite3_prepare_v2(db, sql, -1, &stmt, 0);
+    if (rc != SQLITE_OK) 
+    {
+        qDebug() << "Failed to fetch the data:" << sqlite3_errmsg(db);
+        return;
+    }
+
+    //Execute the statement and fetch rows
+    int row = 0;
+    while(sqlite3_step(stmt) == SQLITE_ROW) {
+        inventoryTable->insertRow(row);
+
+        //fetch columns and populate the rows
+        for(int col = 0; col < 6; col++)
+        {
+            QString value = QString::fromUtf8((const char *)sqlite3_column_text(stmt, col));
+            inventoryTable->setItem(row, col, new QTableWidgetItem(value));
+        }
+        row++;
+    }
+
+    //Finalize the statement
+    sqlite3_finalize(stmt);
+    qDebug() << "Inventory table refreshed.";
+    
+}
+
+
+bool deleteProduct(sqlite3 *db, int id) {
+    QString sql = QString("DELETE FROM products WHERE id = %1;").arg(id);
+
+    char *zErrMsg = 0;
+    int rc = sqlite3_exec(db, sql.toStdString().c_str(), 0, 0, &zErrMsg);
+    if(rc != SQLITE_OK) {
+        qDebug() << "SQL error:" << zErrMsg;
+        sqlite3_free(zErrMsg);
+        return false;
+    }
+
+    qDebug() << "Product(s) deleted successfully.";
+    return false;
+}
 
 
 int main(int argc, char *argv[]) {
+
+    sqlite3 *db;
+    if(!initializeDatabase(db)) {
+        return 1;
+    }
+
     QApplication app(argc, argv);
 
     std::cout << "Starting Automated Inventory Management System...\n";
@@ -76,12 +169,13 @@ int main(int argc, char *argv[]) {
             double price = dialog.getPrice();
             int quantity = dialog.getQuantity();
             QString category = dialog.getCategory();
+        
+        //Add the product to the database
+        if(addProduct(db, name, price, quantity, category)) {
+            //Refresh the table
+            refreshInventoryTable(db, inventoryTable);
         }
-        // Add the product to the inventory
-        DatabaseManager.addProduct(name, price, quantity, category);
-
-        // Refresh the table (you'll need to implement this)
-        // refreshInventoryTable(inventoryTable, inventoryManager);
+    }
     });
 
     QObject::connect(editButton, &QPushButton::clicked, [&]() {
@@ -97,6 +191,7 @@ int main(int argc, char *argv[]) {
             QMessageBox::warning(&window, "Warning", "Please select a product to delete");
             return;
         }
+        int id = inventoryTable->item(inventoryTable->currentRow(), 0)->text().toInt();
         auto reply = QMessageBox::question(&window, "Confirm Delete", 
             "Are you sure you want to delete this product?",
             QMessageBox::Yes|QMessageBox::No);
@@ -104,12 +199,21 @@ int main(int argc, char *argv[]) {
         if (reply == QMessageBox::Yes) {
             QMessageBox::information(&window, "Delete Product", "Delete functionality will be implemented here");
         }
+        if(reply == QMessageBox::Yes) {
+            if(deleteProduct(db, id)) {
+                refreshInventoryTable(db, inventoryTable); //Refresh the table
+            }
+        }
     });
 
     QObject::connect(searchButton, &QPushButton::clicked, [&]() {
         QString searchText = searchBar->text();
         QMessageBox::information(&window, "Search", 
             "Searching for: " + searchText + "\nSearch functionality will be implemented here");
+    });
+
+    QObject::connect(refreshButton, &QPushButton::clicked, [&]() {
+        refreshInventoryTable(db, inventoryTable);
     });
 
     // Add some sample data
@@ -143,6 +247,7 @@ int main(int argc, char *argv[]) {
 
     window.setCentralWidget(centralWidget);
     window.show();
+    sqlite3_close(db);
 
     return app.exec();
 }

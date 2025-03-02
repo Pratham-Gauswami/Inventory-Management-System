@@ -84,16 +84,16 @@ clean: CMakeFiles/AutomatedInventoryMSystem_autogen.dir/clean
 # Target rules for target CMakeFiles/AutomatedInventoryMSystem.dir
 
 # All Build rule for target.
-CMakeFiles/AutomatedInventoryMSystem.dir/all: CMakeFiles/AutomatedInventoryMSystem_autogen_timestamp_deps.dir/all
 CMakeFiles/AutomatedInventoryMSystem.dir/all: CMakeFiles/AutomatedInventoryMSystem_autogen.dir/all
+CMakeFiles/AutomatedInventoryMSystem.dir/all: CMakeFiles/AutomatedInventoryMSystem_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target AutomatedInventoryMSystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target AutomatedInventoryMSystem"
 .PHONY : CMakeFiles/AutomatedInventoryMSystem.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AutomatedInventoryMSystem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/AutomatedInventoryMSystem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" 0
 .PHONY : CMakeFiles/AutomatedInventoryMSystem.dir/rule
@@ -105,7 +105,7 @@ AutomatedInventoryMSystem: CMakeFiles/AutomatedInventoryMSystem.dir/rule
 # codegen rule for target.
 CMakeFiles/AutomatedInventoryMSystem.dir/codegen: CMakeFiles/AutomatedInventoryMSystem_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=1,2,3,4,5,6 "Finished codegen for target AutomatedInventoryMSystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Finished codegen for target AutomatedInventoryMSystem"
 .PHONY : CMakeFiles/AutomatedInventoryMSystem.dir/codegen
 
 # clean rule for target.
@@ -152,7 +152,7 @@ CMakeFiles/AutomatedInventoryMSystem_autogen_timestamp_deps.dir/clean:
 CMakeFiles/AutomatedInventoryMSystem_autogen.dir/all: CMakeFiles/AutomatedInventoryMSystem_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem_autogen.dir/build.make CMakeFiles/AutomatedInventoryMSystem_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem_autogen.dir/build.make CMakeFiles/AutomatedInventoryMSystem_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=7 "Built target AutomatedInventoryMSystem_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=8 "Built target AutomatedInventoryMSystem_autogen"
 .PHONY : CMakeFiles/AutomatedInventoryMSystem_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -169,7 +169,7 @@ AutomatedInventoryMSystem_autogen: CMakeFiles/AutomatedInventoryMSystem_autogen.
 # codegen rule for target.
 CMakeFiles/AutomatedInventoryMSystem_autogen.dir/codegen: CMakeFiles/AutomatedInventoryMSystem_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem_autogen.dir/build.make CMakeFiles/AutomatedInventoryMSystem_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=7 "Finished codegen for target AutomatedInventoryMSystem_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=8 "Finished codegen for target AutomatedInventoryMSystem_autogen"
 .PHONY : CMakeFiles/AutomatedInventoryMSystem_autogen.dir/codegen
 
 # clean rule for target.

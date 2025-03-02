@@ -179,77 +179,101 @@ AutomatedInventoryMSystem_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/AutomatedInventoryMSystem_autogen/mocs_compilation.cpp.s
 .PHONY : AutomatedInventoryMSystem_autogen/mocs_compilation.cpp.s
 
-addProduct.o: addProduct.cpp.o
-.PHONY : addProduct.o
+src/DatabaseManager.o: src/DatabaseManager.cpp.o
+.PHONY : src/DatabaseManager.o
 
 # target to build an object file
-addProduct.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.o
-.PHONY : addProduct.cpp.o
+src/DatabaseManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.o
+.PHONY : src/DatabaseManager.cpp.o
 
-addProduct.i: addProduct.cpp.i
-.PHONY : addProduct.i
+src/DatabaseManager.i: src/DatabaseManager.cpp.i
+.PHONY : src/DatabaseManager.i
 
 # target to preprocess a source file
-addProduct.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.i
-.PHONY : addProduct.cpp.i
+src/DatabaseManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.i
+.PHONY : src/DatabaseManager.cpp.i
 
-addProduct.s: addProduct.cpp.s
-.PHONY : addProduct.s
+src/DatabaseManager.s: src/DatabaseManager.cpp.s
+.PHONY : src/DatabaseManager.s
 
 # target to generate assembly for a file
-addProduct.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.s
-.PHONY : addProduct.cpp.s
+src/DatabaseManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.s
+.PHONY : src/DatabaseManager.cpp.s
 
-inventory.o: inventory.cpp.o
-.PHONY : inventory.o
+src/addProduct.o: src/addProduct.cpp.o
+.PHONY : src/addProduct.o
 
 # target to build an object file
-inventory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.o
-.PHONY : inventory.cpp.o
+src/addProduct.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.o
+.PHONY : src/addProduct.cpp.o
 
-inventory.i: inventory.cpp.i
-.PHONY : inventory.i
+src/addProduct.i: src/addProduct.cpp.i
+.PHONY : src/addProduct.i
 
 # target to preprocess a source file
-inventory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.i
-.PHONY : inventory.cpp.i
+src/addProduct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.i
+.PHONY : src/addProduct.cpp.i
 
-inventory.s: inventory.cpp.s
-.PHONY : inventory.s
+src/addProduct.s: src/addProduct.cpp.s
+.PHONY : src/addProduct.s
 
 # target to generate assembly for a file
-inventory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.s
-.PHONY : inventory.cpp.s
+src/addProduct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.s
+.PHONY : src/addProduct.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/inventory.o: src/inventory.cpp.o
+.PHONY : src/inventory.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/inventory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.o
+.PHONY : src/inventory.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/inventory.i: src/inventory.cpp.i
+.PHONY : src/inventory.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/inventory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.i
+.PHONY : src/inventory.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/inventory.s: src/inventory.cpp.s
+.PHONY : src/inventory.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/inventory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.s
+.PHONY : src/inventory.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AutomatedInventoryMSystem.dir/build.make CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -265,15 +289,18 @@ help:
 	@echo "... AutomatedInventoryMSystem_autogen/mocs_compilation.o"
 	@echo "... AutomatedInventoryMSystem_autogen/mocs_compilation.i"
 	@echo "... AutomatedInventoryMSystem_autogen/mocs_compilation.s"
-	@echo "... addProduct.o"
-	@echo "... addProduct.i"
-	@echo "... addProduct.s"
-	@echo "... inventory.o"
-	@echo "... inventory.i"
-	@echo "... inventory.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/DatabaseManager.o"
+	@echo "... src/DatabaseManager.i"
+	@echo "... src/DatabaseManager.s"
+	@echo "... src/addProduct.o"
+	@echo "... src/addProduct.i"
+	@echo "... src/addProduct.s"
+	@echo "... src/inventory.o"
+	@echo "... src/inventory.i"
+	@echo "... src/inventory.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

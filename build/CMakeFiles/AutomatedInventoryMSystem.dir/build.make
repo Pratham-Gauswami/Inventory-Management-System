@@ -93,68 +93,85 @@ CMakeFiles/AutomatedInventoryMSystem.dir/AutomatedInventoryMSystem_autogen/mocs_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomatedInventoryMSystem.dir/AutomatedInventoryMSystem_autogen/mocs_compilation.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/AutomatedInventoryMSystem_autogen/mocs_compilation.cpp" -o CMakeFiles/AutomatedInventoryMSystem.dir/AutomatedInventoryMSystem_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.o: CMakeFiles/AutomatedInventoryMSystem.dir/flags.make
-CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.o: /Users/prathamgauswami/Desktop/SIDE\ PROJECTS/CPP/AutomatedInventoryMSystem/main.cpp
-CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.o: CMakeFiles/AutomatedInventoryMSystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.o -MF CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.o.d -o CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.o -c "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/main.cpp"
+CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.o: CMakeFiles/AutomatedInventoryMSystem.dir/flags.make
+CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.o: /Users/prathamgauswami/Desktop/SIDE\ PROJECTS/CPP/AutomatedInventoryMSystem/src/main.cpp
+CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.o: CMakeFiles/AutomatedInventoryMSystem.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.o -MF CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.o.d -o CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.o -c "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/src/main.cpp"
 
-CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/main.cpp" > CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.i
+CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/src/main.cpp" > CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.i
 
-CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/main.cpp" -o CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.s
+CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/src/main.cpp" -o CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.s
 
-CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.o: CMakeFiles/AutomatedInventoryMSystem.dir/flags.make
-CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.o: /Users/prathamgauswami/Desktop/SIDE\ PROJECTS/CPP/AutomatedInventoryMSystem/inventory.cpp
-CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.o: CMakeFiles/AutomatedInventoryMSystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.o -MF CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.o.d -o CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.o -c "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/inventory.cpp"
+CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.o: CMakeFiles/AutomatedInventoryMSystem.dir/flags.make
+CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.o: /Users/prathamgauswami/Desktop/SIDE\ PROJECTS/CPP/AutomatedInventoryMSystem/src/inventory.cpp
+CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.o: CMakeFiles/AutomatedInventoryMSystem.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.o -MF CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.o.d -o CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.o -c "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/src/inventory.cpp"
 
-CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/inventory.cpp" > CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.i
+CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/src/inventory.cpp" > CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.i
 
-CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/inventory.cpp" -o CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.s
+CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/src/inventory.cpp" -o CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.s
 
-CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.o: CMakeFiles/AutomatedInventoryMSystem.dir/flags.make
-CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.o: /Users/prathamgauswami/Desktop/SIDE\ PROJECTS/CPP/AutomatedInventoryMSystem/addProduct.cpp
-CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.o: CMakeFiles/AutomatedInventoryMSystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.o -MF CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.o.d -o CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.o -c "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/addProduct.cpp"
+CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.o: CMakeFiles/AutomatedInventoryMSystem.dir/flags.make
+CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.o: /Users/prathamgauswami/Desktop/SIDE\ PROJECTS/CPP/AutomatedInventoryMSystem/src/addProduct.cpp
+CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.o: CMakeFiles/AutomatedInventoryMSystem.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.o -MF CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.o.d -o CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.o -c "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/src/addProduct.cpp"
 
-CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/addProduct.cpp" > CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.i
+CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/src/addProduct.cpp" > CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.i
 
-CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/addProduct.cpp" -o CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.s
+CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/src/addProduct.cpp" -o CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.s
+
+CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.o: CMakeFiles/AutomatedInventoryMSystem.dir/flags.make
+CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.o: /Users/prathamgauswami/Desktop/SIDE\ PROJECTS/CPP/AutomatedInventoryMSystem/src/DatabaseManager.cpp
+CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.o: CMakeFiles/AutomatedInventoryMSystem.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.o -MF CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.o.d -o CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.o -c "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/src/DatabaseManager.cpp"
+
+CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/src/DatabaseManager.cpp" > CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.i
+
+CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/src/DatabaseManager.cpp" -o CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.s
 
 # Object files for target AutomatedInventoryMSystem
 AutomatedInventoryMSystem_OBJECTS = \
 "CMakeFiles/AutomatedInventoryMSystem.dir/AutomatedInventoryMSystem_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.o" \
-"CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.o" \
-"CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.o"
+"CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.o" \
+"CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.o" \
+"CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.o" \
+"CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.o"
 
 # External object files for target AutomatedInventoryMSystem
 AutomatedInventoryMSystem_EXTERNAL_OBJECTS =
 
 AutomatedInventoryMSystem: CMakeFiles/AutomatedInventoryMSystem.dir/AutomatedInventoryMSystem_autogen/mocs_compilation.cpp.o
-AutomatedInventoryMSystem: CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.o
-AutomatedInventoryMSystem: CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.o
-AutomatedInventoryMSystem: CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.o
+AutomatedInventoryMSystem: CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.o
+AutomatedInventoryMSystem: CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.o
+AutomatedInventoryMSystem: CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.o
+AutomatedInventoryMSystem: CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.o
 AutomatedInventoryMSystem: CMakeFiles/AutomatedInventoryMSystem.dir/build.make
 AutomatedInventoryMSystem: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
+AutomatedInventoryMSystem: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/libsqlite3.tbd
 AutomatedInventoryMSystem: /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui
 AutomatedInventoryMSystem: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
 AutomatedInventoryMSystem: CMakeFiles/AutomatedInventoryMSystem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable AutomatedInventoryMSystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable AutomatedInventoryMSystem"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AutomatedInventoryMSystem.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,4 +1,4 @@
-#include "inventory.h"
+#include "../include/inventory.h"
 
 Product::Product(int id, const QString& name, double price, int quantity, const QString& category)
     : id(id), name(name), price(price), quantity(quantity), category(category) {

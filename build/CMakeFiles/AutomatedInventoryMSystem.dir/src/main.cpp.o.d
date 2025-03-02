@@ -1,5 +1,5 @@
-CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.o: \
-  /Users/prathamgauswami/Desktop/SIDE\ PROJECTS/CPP/AutomatedInventoryMSystem/main.cpp \
+CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.o: \
+  /Users/prathamgauswami/Desktop/SIDE\ PROJECTS/CPP/AutomatedInventoryMSystem/src/main.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__assertion_handler \
@@ -1211,7 +1211,10 @@ CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.o: \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/include/QtWidgets/qdialog.h \
   /opt/homebrew/include/QtWidgets/qdialogbuttonbox.h \
-  /Users/prathamgauswami/Desktop/SIDE\ PROJECTS/CPP/AutomatedInventoryMSystem/addProduct.h \
+  /Library/Frameworks/Mono.framework/Headers/sqlite3.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QDebug \
+  /opt/homebrew/lib/QtCore.framework/Headers/qdebug.h \
+  /Users/prathamgauswami/Desktop/SIDE\ PROJECTS/CPP/AutomatedInventoryMSystem/src/../include/addProduct.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDialog \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qdialog.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDoubleSpinBox \
@@ -1223,4 +1226,7 @@ CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.o: \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qformlayout.h \
   /opt/homebrew/include/QtWidgets/QLayout \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDialogButtonBox \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qdialogbuttonbox.h
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qdialogbuttonbox.h \
+  /Users/prathamgauswami/Desktop/SIDE\ PROJECTS/CPP/AutomatedInventoryMSystem/src/../include/DatabaseManager.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/QString \
+  /opt/homebrew/lib/QtCore.framework/Headers/qstring.h

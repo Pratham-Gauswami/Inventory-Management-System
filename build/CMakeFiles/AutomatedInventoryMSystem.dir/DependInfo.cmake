@@ -10,9 +10,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "AutomatedInventoryMSystem_autogen/timestamp" "custom" "AutomatedInventoryMSystem_autogen/deps"
   "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/build/AutomatedInventoryMSystem_autogen/mocs_compilation.cpp" "CMakeFiles/AutomatedInventoryMSystem.dir/AutomatedInventoryMSystem_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/AutomatedInventoryMSystem.dir/AutomatedInventoryMSystem_autogen/mocs_compilation.cpp.o.d"
-  "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/addProduct.cpp" "CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.o" "gcc" "CMakeFiles/AutomatedInventoryMSystem.dir/addProduct.cpp.o.d"
-  "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/inventory.cpp" "CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.o" "gcc" "CMakeFiles/AutomatedInventoryMSystem.dir/inventory.cpp.o.d"
-  "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/main.cpp" "CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.o" "gcc" "CMakeFiles/AutomatedInventoryMSystem.dir/main.cpp.o.d"
+  "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/src/DatabaseManager.cpp" "CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.o" "gcc" "CMakeFiles/AutomatedInventoryMSystem.dir/src/DatabaseManager.cpp.o.d"
+  "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/src/addProduct.cpp" "CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.o" "gcc" "CMakeFiles/AutomatedInventoryMSystem.dir/src/addProduct.cpp.o.d"
+  "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/src/inventory.cpp" "CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.o" "gcc" "CMakeFiles/AutomatedInventoryMSystem.dir/src/inventory.cpp.o.d"
+  "/Users/prathamgauswami/Desktop/SIDE PROJECTS/CPP/AutomatedInventoryMSystem/src/main.cpp" "CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.o" "gcc" "CMakeFiles/AutomatedInventoryMSystem.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

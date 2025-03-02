@@ -13,7 +13,7 @@ class AddProductDialog : public QDialog {
     Q_OBJECT
 
 public: 
-    AddProductDialog(QWidget * parent = nullptr);
+    explicit AddProductDialog(QWidget *parent = nullptr);
 
     QString getName() const;
     double getPrice() const;

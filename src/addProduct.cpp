@@ -1,4 +1,4 @@
-#include "addProduct.h"
+#include "../include/addProduct.h"
 
 AddProductDialog::AddProductDialog(QWidget *parent) : QDialog(parent) {
     setWindowTitle("Add Product");
